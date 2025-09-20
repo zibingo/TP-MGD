@@ -22,7 +22,7 @@ TP-MGD is a new method for texture-preserving multimodal fashion image editing u
 - [x] Release training code
 - [x] Release inference code  
 - [x] Release processed datasets
-- [x] Release checkpoints & upload to Hugging Face
+- [x] Release checkpoints to Hugging Face
 - [x] Create comprehensive documentation
 ## 🚀 Quick Start
 
