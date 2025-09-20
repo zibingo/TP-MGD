@@ -60,8 +60,9 @@ wget https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.b
    ```bash
    wget https://huggingface.co/zibingo/TP-MGD/resolve/main/vitonhd-texture.zip
    ```
-<details>
-<summary>Directory Structure:</summary>
+4. **Configuration:** Set the `dataroot_path` in the YAML files under the `configs/` directory.
+
+**Directory Structure:**
 ```
 ├── captions.json                (from MGD)
 ├── test/
@@ -95,7 +96,6 @@ wget https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.b
 │   └── openpose_json/
 └── train_pairs.txt
 ```
-</details>
 
 ### DressCode Dataset
 
@@ -106,8 +106,9 @@ wget https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.b
    ```bash
    wget https://huggingface.co/zibingo/TP-MGD/resolve/main/dresscode-texture.zip
    ```
-<details>
-<summary>Directory Structure:</summary>
+4. **Configuration:** Set the `dataroot_path` in the YAML files under the `configs/` directory.
+
+**Directory Structure:**
 ```
 ├── dresses/
 │   ├── dense/
@@ -151,8 +152,6 @@ wget https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.b
 ├── test_stitch_map/               (from MGD)
 └── train_pairs.txt
 ```
-</details>
-**Configuration:** Set the `dataroot_path` in the YAML files under the `configs/` directory.
 
 ## 🚀 Usage
 
