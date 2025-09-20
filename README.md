@@ -8,6 +8,7 @@
     <img src='https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub' alt='GitHub'>
   </a>
 </div>
+
 ## 🎯 Overview
 
 TP-MGD is a new method for texture-preserving multimodal fashion image editing using diffusion models. The project enables high-quality fashion image generation and editing through an innovative lightweight architecture setup while maintaining fine-grained texture details.
